@@ -1,0 +1,56 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Modular Force Fields System
+Upstream-Contact: GaeaKat
+Source: https://github.com/GaeaKat/Modular-Force-Field-System
+
+Files: */src/main/resources/*
+Copyright: 2024 GaeaKat
+License: CC-BY-4.0
+
+Files: */src/generated/resources/*
+Copyright: 2024 GaeaKat
+License: CC-BY-4.0
+
+Files: .github/*
+Copyright: 2024 GaeaKat
+License: CC0-1.0
+
+Files: .gitattributes
+Copyright: 2024 GaeaKat
+License: CC0-1.0
+
+Files: .gitignore
+Copyright: 2024 GaeaKat
+License: CC0-1.0
+
+Files: settings.gradle
+Copyright: 2024 GaeaKat
+License: CC0-1.0
+
+Files: *build.gradle
+Copyright: 2024 GaeaKat
+License: CC0-1.0
+
+Files: *gradle.properties
+Copyright: 2024 GaeaKat
+License: CC0-1.0
+
+Files: gradle/*
+Copyright: 2015 the original author or authors.
+License: Apache-2.0
+
+Files: gradlew*
+Copyright: 2015 the original author or authors.
+License: Apache-2.0
+
+Files: CHANGELOG.md
+Copyright: 2024 GaeaKat
+License: CC0-1.0
+
+Files: *.DS_Store
+Copyright: Mac File
+License: CC0-1.0
+
+Files: .idea/*
+Copyright: .idea files
+License: CC0-1.0
