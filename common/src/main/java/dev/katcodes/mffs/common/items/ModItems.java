@@ -15,12 +15,17 @@ import net.minecraft.world.level.block.Block;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.function.Supplier;
 
 public class ModItems {
 
     private static final List<MFFSRegistryObject<Item>> ITEMS = new ArrayList<>();
 
+
+    /**
+     * Monazit Item
+     */
+    @SuppressWarnings("unused")
+    public static final Item MONAZIT=createItem(new Item((new Item.Properties())),new ResourceLocation(Constants.MOD_ID,"monazit"));
 
     public static Item createItem(Item item, ResourceLocation id) {
         ITEMS.add(new MFFSRegistryObject<>(item,id));
